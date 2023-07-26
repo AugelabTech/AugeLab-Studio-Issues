@@ -24,6 +24,7 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Technical Information about your setup:**
+ - Version: [e.g. 0.9.9c]
  - OS: [e.g. Windows 10, Windows 11, Linux Mint X.X, etc.]
  - CPU: [ex. Intel i5-7500]
  - GPU: [ex. Nvidia GeForce GTX1650 Ti]
