@@ -1,4 +1,4 @@
-🇬🇧 # AugeLab Studio Support
+# 🇬🇧 AugeLab Studio Support
 
 Here you can report your issues or request new features.
 
@@ -14,9 +14,13 @@ In order to send a feature request, [click here](https://github.com/augelab/Auge
 
 Please provide a short, informative title on your feature request.
 
+<br>
+
 ---
 
-🇹🇷 # AugeLab Studio Destek
+<br>
+
+# 🇹🇷 AugeLab Studio Destek
 
 Burada hata ve geliştirme isteklerinizi AugeLab takımına iletebilirsiniz.
 
