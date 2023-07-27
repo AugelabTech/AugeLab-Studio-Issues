@@ -38,4 +38,4 @@ Hata raporu yollamak için, [buraya tıklayın](https://github.com/augelab/AugeL
 Geliştirme isteği iletmek için, [buraya tıklayın](https://github.com/augelab/AugeLab-Studio-Issues/issues/new?assignees=&labels=enhancement&projects=&template=geli%C5%9Ftirme-i%CC%87ste%C4%9Fi.md&title=). Geliştirme isteği için doldurmanız gereken detaylı bilgiler, yazı kutucuğunda yazmaktadır.
 
 ## Sorular
-Görüntü işleme sorularınız için, [buraya tıklayın](https://github.com/AugelabTech/AugeLab-Studio-Issues/issues/new?assignees=&labels=question&projects=&template=question.md&title=). Sorularınız için doldurmanız gereken detaylı bilgiler, yazı kutucuğunda yazmaktadır.
+Görüntü işleme sorularınız için, [buraya tıklayın](https://github.com/AugelabTech/AugeLab-Studio-Issues/issues/new?assignees=&labels=question&projects=&template=soru.md&title=). Sorularınız için doldurmanız gereken detaylı bilgiler, yazı kutucuğunda yazmaktadır.
