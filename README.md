@@ -18,9 +18,9 @@
 
 <br>
 </div>
-Here you can report your issues or request new features. If you are familiar with GitHub, click the Issues tab, open an issue with the correct labels, and provide sufficient information on your setup/request. 
+Here you can report your issues or request new features. If you are familiar with GitHub, click the [Issues](https://github.com/AugelabTech/AugeLab-Studio-Issues/issues) tab, open an issue with the correct labels, and provide sufficient information on your setup/request. Otherwise, read below and follow template instructions.
 
-Otherwise, read below and follow template instructions.
+You are also welcome to discuss/share anything with us on our [Discussions](https://github.com/AugelabTech/AugeLab-Studio-Issues/discussions) section.
 
 ## Bug Reports
 
@@ -54,9 +54,9 @@ In order to ask questions on how to solve certain image processing problems, [cl
 <br>
 </div>
 
-Burada hata ve geliştirme isteklerinizi AugeLab takımına iletebilirsiniz. Eğer GitHub kullanmaya alışıksanız, Issues kısmından istediğiniz bir Issue'u, kullandğınız sistemi ve isteğinizi açıklayıcı bir şekilde belirterek yazınız. 
+Burada hata ve geliştirme isteklerinizi AugeLab takımına iletebilirsiniz. Eğer GitHub kullanmaya alışıksanız, [Issues](https://github.com/AugelabTech/AugeLab-Studio-Issues/issues) kısmından istediğiniz bir Issue'u, kullandğınız sistemi ve isteğinizi açıklayıcı bir şekilde belirterek yazınız. Aksi takdirde aşağıdaki yönlendirmeleri okuyunuz ve açıklayıcı bir konu başlığı seçiniz.
 
-Aksi takdirde aşağıdaki yönlendirmeleri okuyunuz ve açıklayıcı bir konu başlığı seçiniz
+Aynı zamanda bizimle [Tartışmalar](https://github.com/AugelabTech/AugeLab-Studio-Issues/discussions) bölümünden istediğiniz herhangi bir konuyu paylaşabilirsiniz.
 
 ## Hata Raporlamaları
 
