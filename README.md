@@ -18,13 +18,13 @@
 
 <br>
 </div>
-Here you can report your issues or request new features. If you are familiar with GitHub, click the [Issues](https://github.com/AugelabTech/AugeLab-Studio-Issues/issues) tab, open an issue with the correct labels, and provide sufficient information on your setup/request. Otherwise, read below and follow template instructions.
+Here you can report your issues or request new features. If you are familiar with GitHub, click on the Issues tab, open an issue with the correct labels, and provide sufficient information on your setup/request. Otherwise, read below and follow the template instructions.
 
 You are also welcome to discuss/share anything with us on our [Discussions](https://github.com/AugelabTech/AugeLab-Studio-Issues/discussions) section.
 
 ## Bug Reports
 
-In order to send a bug report, [click here](https://github.com/augelab/AugeLab-Studio-Issues/issues/new?assignees=&labels=bug&projects=&template=bug_report.md&title=). Detailed instructions to send bug reports  will be written in a text box.
+In order to send a bug report, [click here](https://github.com/augelab/AugeLab-Studio-Issues/issues/new?assignees=&labels=bug&projects=&template=bug_report.md&title=). Detailed instructions to send bug reports will be written in a text box.
 
 ## Feature Requests
 
