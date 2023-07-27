@@ -1,3 +1,11 @@
+<br />
+<div align="center">
+  <a href="https://augelab.com/assets/logo_text.png">
+    <img src="https://augelab.com/assets/logo_text.png" alt="Logo" width="250" height="40">
+  </a>
+<br>
+</div>
+
 # 🇬🇧 AugeLab Studio Support
 
 Here you can report your issues or request new features. If you are familiar with GitHub, click the Issues tab, open an issue with the correct labels, and provide sufficient information on your setup/request. 
