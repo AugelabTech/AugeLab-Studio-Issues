@@ -12,7 +12,7 @@
 <div align="right">
   
 [Getting Started](https://augelab.com/start/) ―
-[Example Applications](https://medium.com/augelab-crew) ―
+[Articles](https://medium.com/augelab-crew) ―
 [Udemy Course (Only in Turkish)](https://www.udemy.com/course/augelab-studio-goruntu-isleme-ve-yapay-zeka-egitimi/) ―
 [Documentation](https://img1.wsimg.com/blobby/go/963f5bef-bbf4-4a85-af7a-fc15db3c730c/AugeLab%20Studio%20Manual.pdf)
 
