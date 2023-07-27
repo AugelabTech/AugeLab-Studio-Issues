@@ -1,13 +1,23 @@
 <br />
 <div align="center">
-  <a href="https://augelab.com/assets/logo_text.png">
+  <a href="https://augelab.com/">
     <img src="https://augelab.com/assets/logo_text.png" alt="Logo" width="250" height="40">
   </a>
 <br>
+<br>
+
 </div>
 
 # 🇬🇧 AugeLab Studio Support
+<div align="right">
+  
+[Getting Started](https://augelab.com/start/) ―
+[Example Applications](https://medium.com/augelab-crew) ―
+[Udemy Course (Only in Turkish)](https://www.udemy.com/course/augelab-studio-goruntu-isleme-ve-yapay-zeka-egitimi/) ―
+[Documentation](https://img1.wsimg.com/blobby/go/963f5bef-bbf4-4a85-af7a-fc15db3c730c/AugeLab%20Studio%20Manual.pdf)
 
+<br>
+</div>
 Here you can report your issues or request new features. If you are familiar with GitHub, click the Issues tab, open an issue with the correct labels, and provide sufficient information on your setup/request. 
 
 Otherwise, read below and follow template instructions.
@@ -32,6 +42,17 @@ In order to ask questions on how to solve certain image processing problems, [cl
 <br>
 
 # 🇹🇷 AugeLab Studio Destek
+
+<div align="right">
+  
+[Başlarken](https://augelab.com/start/) ―
+[Örnek Uygulamalar](https://medium.com/augelab-crew) ―
+[Udemy Kursu](https://www.udemy.com/course/augelab-studio-goruntu-isleme-ve-yapay-zeka-egitimi/) ―
+[Dökümantasyon](https://img1.wsimg.com/blobby/go/963f5bef-bbf4-4a85-af7a-fc15db3c730c/AugeLab%20Studio%20Manual.pdf)
+
+<br>
+<br>
+</div>
 
 Burada hata ve geliştirme isteklerinizi AugeLab takımına iletebilirsiniz. Eğer GitHub kullanmaya alışıksanız, Issues kısmından istediğiniz bir Issue'u, kullandğınız sistemi ve isteğinizi açıklayıcı bir şekilde belirterek yazınız. 
 
