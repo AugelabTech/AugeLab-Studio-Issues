@@ -14,7 +14,7 @@
 [Getting Started](https://augelab.com/start/) ―
 [Articles](https://medium.com/augelab-crew) ―
 [Udemy Course (Only in Turkish)](https://www.udemy.com/course/augelab-studio-goruntu-isleme-ve-yapay-zeka-egitimi/) ―
-[Documentation](https://img1.wsimg.com/blobby/go/963f5bef-bbf4-4a85-af7a-fc15db3c730c/AugeLab%20Studio%20Manual.pdf)
+[Documentation](https://augelab.gitbook.io/usermanual/)
 
 <br>
 </div>
@@ -48,7 +48,7 @@ In order to ask questions on how to solve certain image processing problems, [cl
 [Başlarken](https://augelab.com/start/) ―
 [Örnek Uygulamalar](https://medium.com/augelab-crew) ―
 [Udemy Kursu](https://www.udemy.com/course/augelab-studio-goruntu-isleme-ve-yapay-zeka-egitimi/) ―
-[Dökümantasyon](https://img1.wsimg.com/blobby/go/963f5bef-bbf4-4a85-af7a-fc15db3c730c/AugeLab%20Studio%20Manual.pdf)
+[Dökümantasyon](https://augelab.gitbook.io/usermanual/)
 
 <br>
 <br>
