@@ -1,4 +1,4 @@
-Here's the documentation for a `main.py` script, which utilizes the `StudioScenario` class.
+Here's the documentation for a `main.py` script, which utilizes the `StudioScenario` class. To execute your main loop, you must use the python (python3.9) provided with the distributed AugeLab Studio.
 
 ---
 
@@ -8,7 +8,7 @@ This script demonstrates how to use the `StudioScenario` class to load, run, and
 
 ## Basic Usage
 
-### Importing and Initializing
+### 1. Importing and Initializing
 ```python
 from studio import StudioScenario
 
@@ -17,13 +17,13 @@ scenario = StudioScenario(verification_code="<verification-code>")
 - Imports the `StudioScenario` class.
 - Initializes a `StudioScenario` object with a provided verification code. Verification code can be acquired from [account.augelab.com](https://account.augelab.com)
 
-### Loading a Scenario
+### 2. Loading a Scenario
 ```python
 scenario.load_scenario("<path_to.pmod file>")
 ```
 - Loads a scenario from the specified file path (replace `"path to pmod"` with the actual file path).
 
-### Running the Scenario in a Loop
+### 3. Running the Scenario in a Loop
 ```python
 while True:
     res = scenario.run((,))  # The first argument is always a tuple
@@ -33,7 +33,7 @@ while True:
 - Runs the scenario in a loop. The `scenario.run` method expects a tuple as its argument.
 - The loop breaks when the first element of the returned tuple (`res[0]`) is truthy, indicating completion or a specific condition.
 
-### Cleanup
+### 4. Cleanup
 ```python
 scenario.cleanup()
 ```
@@ -75,13 +75,28 @@ for scenario_path in scenarios:
 ```
 - This variation demonstrates how to load and run multiple scenarios sequentially.
 
+### Variation 4: Show Image Results
+```python
+from studio import StudioScenario
+scenario = StudioScenario(verification_code="<verification-code>")
+
+import cv2  # provided with AugeLab Studio, import after initializing an instance of `StudioScenario`.
+scenario.load_model(<path-to-model>)
+while True:
+    res = scenario.run((,))
+    cv2.imshow('Result', res[0][0])  # assuming that first output is an image (numpy ndarray of a BGR uint8 image)
+    key = cv2.waitKey(1) & 0xFF
+    if key == ord("q"):
+        break
+```
+
 Replace placeholders like `<verification-code>`, `"path to pmod"`, and `arg1, arg2, ...` with actual values relevant to your specific use case.
 
 ### Full Example
 
 Run this line from command line:
 ````cmd
-AugeLab Studio\Python\python.exe main.py
+<path to AugeLab Studio>\Python\python.exe main.py
 ````
 
 Contents of a full featured main.py:
