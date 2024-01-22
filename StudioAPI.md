@@ -178,9 +178,3 @@ Runs the scenario.
 ### `cleanup() -> bool`
 Cleans up the scenario.
 - **Returns:** `True` if successful, `False` otherwise.
-
----
-
-You can use this Markdown formatted documentation directly in a GitHub repository as a README or documentation file for
-
- the `StudioScenario` class.
