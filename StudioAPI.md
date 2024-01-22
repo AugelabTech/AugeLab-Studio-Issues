@@ -94,6 +94,11 @@ Replace placeholders like `<verification-code>`, `"path to pmod"`, and `arg1, ar
 
 ### Full Example
 
+Save your scenario from AugeLab Studio:
+
+![image](https://github.com/AugelabTech/AugeLab-Studio-Issues/assets/18147158/0560bd14-750e-47ba-9624-b771d73c053e)
+
+
 Run this line from command line:
 ````cmd
 <path to AugeLab Studio>\Python\python.exe main.py
@@ -105,9 +110,14 @@ Contents of a full featured main.py:
 from studio import StudioScenario
 scenario = StudioScenario(verification_code="<verification-code>")  # provide verification code from your account.augelab.com
 
-args = (arg1, arg2, ...)  # Define your arguments here
+import cv2
+
+args = (True, 3,)  # Define your arguments here, here is assumed that scenario takes two arguments
 while True:
     res = scenario.run(args)
+    print(res[1][0])  # we get the number from here
+
+    cv2.imwrite('result.png', res[0][0], [cv2.IMWRITE_PNG_COMPRESSION, 0])  # save it with lossless compression
     if res[0]:
         break
 ```
