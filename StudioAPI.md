@@ -112,6 +112,13 @@ while True:
         break
 ```
 
+## Installing Packages
+
+Simply, run this command for command line:
+
+````cmdline
+<path to AugeLab Studio>\Python\python.exe -m pip install <package>
+````
 ---
 
 # StudioScenario API Documentation
