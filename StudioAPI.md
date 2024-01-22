@@ -2,7 +2,7 @@ Here's the documentation for a `main.py` script, which utilizes the `StudioScena
 
 ---
 
-# Main.py Script Documentation
+# Scripting Documentation
 
 This script demonstrates how to use the `StudioScenario` class to load, run, and clean up a scenario.
 
@@ -15,11 +15,11 @@ from studio import StudioScenario
 scenario = StudioScenario(verification_code="<verification-code>")
 ```
 - Imports the `StudioScenario` class.
-- Initializes a `StudioScenario` object with a provided verification code.
+- Initializes a `StudioScenario` object with a provided verification code. Verification code can be acquired from [account.augelab.com](https://account.augelab.com)
 
 ### Loading a Scenario
 ```python
-scenario.load_scenario("path to pmod")
+scenario.load_scenario("<path_to.pmod file>")
 ```
 - Loads a scenario from the specified file path (replace `"path to pmod"` with the actual file path).
 
@@ -76,6 +76,26 @@ for scenario_path in scenarios:
 - This variation demonstrates how to load and run multiple scenarios sequentially.
 
 Replace placeholders like `<verification-code>`, `"path to pmod"`, and `arg1, arg2, ...` with actual values relevant to your specific use case.
+
+### Full Example
+
+Run this line from command line:
+````cmd
+AugeLab Studio\Python\python.exe main.py
+````
+
+Contents of a full featured main.py:
+```python
+
+from studio import StudioScenario
+scenario = StudioScenario(verification_code="<verification-code>")  # provide verification code from your account.augelab.com
+
+args = (arg1, arg2, ...)  # Define your arguments here
+while True:
+    res = scenario.run(args)
+    if res[0]:
+        break
+```
 
 ---
 
