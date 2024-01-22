@@ -112,6 +112,7 @@ scenario = StudioScenario(verification_code="<verification-code>")  # provide ve
 
 import cv2
 
+scenario.load_model(<path-to-model>)
 args = (True, 3,)  # Define your arguments here, here is assumed that scenario takes two arguments
 while True:
     res = scenario.run(args)
