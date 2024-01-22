@@ -119,6 +119,9 @@ Simply, run this command for command line:
 ````cmdline
 <path to AugeLab Studio>\Python\python.exe -m pip install <package>
 ````
+
+Be careful not to create any version conflicts with AugeLab Studio when installing new packages.
+
 ---
 
 # StudioScenario API Documentation
