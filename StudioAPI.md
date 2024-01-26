@@ -81,7 +81,7 @@ from studio import StudioScenario
 scenario = StudioScenario(verification_code="<verification-code>")
 
 import cv2  # provided with AugeLab Studio, import after initializing an instance of `StudioScenario`.
-scenario.load_model(<path-to-model>)
+scenario.load_scenario(<path-to-model>)
 while True:
     res = scenario.run((,))
     cv2.imshow('Result', res[0][0])  # assuming that first output is an image (numpy ndarray of a BGR uint8 image)
@@ -117,7 +117,7 @@ scenario = StudioScenario(verification_code="<verification-code>")  # provide ve
 
 import cv2
 
-scenario.load_model(<path-to-model>)
+scenario.load_scenario(<path-to-model>)
 args = (True, 3,)  # Define your arguments here, here is assumed that scenario takes two arguments
 while True:
     res = scenario.run(args)
