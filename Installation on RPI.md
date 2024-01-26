@@ -80,7 +80,7 @@ python3 -m pip install ./build_dist/resources/rpi4_armv7l/packages/opencv_contri
 python3 -m pip install vidgear[core]==0.2.4 --no-deps
 mkdir requirements
 wget --directory-prefix=./requirements/ https://github.com/AugelabTech/AugeLab-Studio-Issues/files/14061860/requirements.txt https://github.com/AugelabTech/AugeLab-Studio-Issues/files/14061870/requirements_armv7l.txt https://github.com/AugelabTech/AugeLab-Studio-Issues/files/14061874/requirements_no_deps.txt
-python3 -m pip install --index-url http://studio-desktop-repo-v3.s3-website.eu-central-1.amazonaws.com --trusted-host studio-desktop-repo-v3.s3-website.eu-central-1.amazonaws.com studio==2.1.0 augelab_file_utils==1.0.2 augelab_platform==1.0.2 opencv-contrib-python==4.7.0 boto==1.24.51 botocore==1.27.51 s3transfer==0.6.0
+python3 -m pip install --index-url http://studio-desktop-repo-v3.s3-website.eu-central-1.amazonaws.com --trusted-host studio-desktop-repo-v3.s3-website.eu-central-1.amazonaws.com studio==2.1.0 augelab_file_utils==1.0.2 augelab_platform==1.0.2 opencv-contrib-python==4.7.0 boto3==1.24.51 botocore==1.27.51 s3transfer==0.6.0
 python3 -m pip install -r ./requirements/requirements.txt
 python3 -m pip install -r ./requirements/requirements_armv7l.txt
 python3 -m pip install -r ./requirements/requirements_no_deps.txt --no-deps
