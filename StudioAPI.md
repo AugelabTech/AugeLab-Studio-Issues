@@ -104,6 +104,11 @@ Run this line from command line:
 <path to AugeLab Studio>\Python\python.exe main.py
 ````
 
+> 💡If you are using another OS, the line below would suffice:
+> ```bash
+> python3 main.py
+> ```
+
 Contents of a full featured main.py:
 ```python
 
