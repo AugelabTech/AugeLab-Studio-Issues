@@ -4,12 +4,16 @@ This guide provides step-by-step instructions for installing a specific Python p
 
 ## Prerequisites
 1. **Raspberry Pi 4B**: Ensure you have a Raspberry Pi 4B.
+   - Make sure you use the official power supplier. Otherwise, that can result in bootloops.
 2. **OS Image**: Download the recommended OS image from [Raspberry Pi Downloads](https://downloads.raspberrypi.com/raspios_armhf/images/raspios_armhf-2022-09-26/2022-09-22-raspios-bullseye-armhf.img.xz).
+3. Some form of RPI familiarity is recommended. If there are some terms below that you are not familiar with, go the [Raspberry Pi - Getting Started](https://www.raspberrypi.com/documentation/computers/getting-started.html) for more information.
+We also recommend [Terminal Guide](https://projects.raspberrypi.org/en/projects/raspberry-pi-using/8) to learn to use the Terminal in Raspberry Pi.
+
 
 ## Steps
 
 ### Step 1: Flashing the OS
-1. Flash the downloaded OS image onto an SD card. Use the official Raspberry Pi Imager, available at the [Raspberry Pi website](https://www.raspberrypi.com/software/).
+1. Flash the downloaded OS image onto an SD card using another PC. Use the official Raspberry Pi Imager, available at the [Raspberry Pi website](https://www.raspberrypi.com/software/).
 
 ### Step 2: Initial Setup
 1. Insert the flashed SD card into your Raspberry Pi 4B.
@@ -28,6 +32,8 @@ If you are seeing ping information and no errors, go on the next step.
 
 ### Step 4: Environment Setup and Dependencies
 Run the following commands in the terminal to set up the environment and install necessary dependencies such as Python3.9:
+
+> 💡 You may execute the commands below line by line, or save them as `install1.sh` file and run `sudo bash install1.sh` in terminal.
 
 ```bash
 echo "Environment: "
