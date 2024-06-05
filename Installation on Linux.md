@@ -35,7 +35,7 @@ wget https://github.com/user-attachments/files/15573418/requirements.txt
 wget https://github.com/user-attachments/files/15573404/requirements_linux.txt
 wget https://github.com/user-attachments/files/15573405/requirements_no_deps.txt
 python3 -m pip install --upgrade pip
-python3 -m pip install --index-url http://studio-desktop-repo-v3.s3-website.eu-central-1.amazonaws.com --trusted-host studio-desktop-repo-v3.s3-website.eu-central-1.amazonaws.com studio augelab_file_utils augelab_platform boto3 botocore
+python3 -m pip install --index-url http://studio-desktop-repo-v3.s3-website.eu-central-1.amazonaws.com --trusted-host studio-desktop-repo-v3.s3-website.eu-central-1.amazonaws.com studio augelab_file_utils augelab_platform boto3 botocore tee
 python3 -m pip install --extra-index-url http://studio-desktop-repo-v3.s3-website.eu-central-1.amazonaws.com --trusted-host studio-desktop-repo-v3.s3-website.eu-central-1.amazonaws.com -r requirements.txt  -r requirements_linux.txt
 python3 -m pip install -r requirements_no_deps.txt --no-deps
 python3 -m pip install vidgear[core]~=0.2.4 --no-deps
