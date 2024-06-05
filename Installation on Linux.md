@@ -34,9 +34,9 @@ apt-get install -y python3-pip
 
 ## Install dependencies
 ```
-wget "https://github.com/user-attachments/files/15573418/requirements.txt"
-wget "https://github.com/user-attachments/files/15573404/requirements_linux.txt"
-wget "https://github.com/user-attachments/files/15573405/requirements_no_deps.txt"
+wget https://github.com/user-attachments/files/15573418/requirements.txt
+wget https://github.com/user-attachments/files/15573404/requirements_linux.txt
+wget https://github.com/user-attachments/files/15573405/requirements_no_deps.txt
 python3 -m pip install --upgrade pip
 python3 -m pip install --index-url http://studio-desktop-repo-v3.s3-website.eu-central-1.amazonaws.com --trusted-host studio-desktop-repo-v3.s3-website.eu-central-1.amazonaws.com studio augelab_file_utils augelab_platform boto3 botocore
 python3 -m pip install --extra-index-url http://studio-desktop-repo-v3.s3-website.eu-central-1.amazonaws.com --trusted-host studio-desktop-repo-v3.s3-website.eu-central-1.amazonaws.com studio==2.1.0 -r requirements.txt  -r requirements_linux.txt
