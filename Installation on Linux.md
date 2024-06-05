@@ -26,8 +26,6 @@ update-alternatives --install /usr/bin/python python /usr/bin/python3.9 1 && \
 
 ```
 apt-get install -y python3-pip
-requirements.txt requirements_linux.txt requirements_no_deps.txt ./
-wheels ./wheels/
 ```
 
 [](https://github.com/user-attachments/files/15573418/requirements.txt)
