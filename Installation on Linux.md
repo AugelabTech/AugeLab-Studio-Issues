@@ -54,4 +54,4 @@ python3 -c "import studio; print(studio.__version__)"
 ```
 
 ## Further Reading
-To use the AugeLab Studio Headless, please refer to [Studio API](https://github.com/user/repo/blob/branch/other_file.md) documentation.
+To use the AugeLab Studio Headless, please refer to [Studio API](https://github.com/AugelabTech/AugeLab-Studio-Issues/blob/main/StudioAPI.md) documentation.
