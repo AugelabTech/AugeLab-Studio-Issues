@@ -1,9 +1,6 @@
 # Installation manual of AugeLab Studio Headless on Linux/Docker
 This documentation will walk you through installation of augelab studio on a Linux distro. You may follow the same steps to dockerize whole process.
 
-> [!TIP]
-> When dockerizing the whole process, remove `apt-get update` commands to enable caching. Removing is not necessary but significantly shorthens consecutive building times.
-
 
 ## Install Python 3.9
 ```commandLine
@@ -39,7 +36,7 @@ wget https://github.com/user-attachments/files/15573404/requirements_linux.txt
 wget https://github.com/user-attachments/files/15573405/requirements_no_deps.txt
 python3 -m pip install --upgrade pip
 python3 -m pip install --index-url http://studio-desktop-repo-v3.s3-website.eu-central-1.amazonaws.com --trusted-host studio-desktop-repo-v3.s3-website.eu-central-1.amazonaws.com studio augelab_file_utils augelab_platform boto3 botocore
-python3 -m pip install --extra-index-url http://studio-desktop-repo-v3.s3-website.eu-central-1.amazonaws.com --trusted-host studio-desktop-repo-v3.s3-website.eu-central-1.amazonaws.com studio==2.1.0 -r requirements.txt  -r requirements_linux.txt
+python3 -m pip install --extra-index-url http://studio-desktop-repo-v3.s3-website.eu-central-1.amazonaws.com --trusted-host studio-desktop-repo-v3.s3-website.eu-central-1.amazonaws.com -r requirements.txt  -r requirements_linux.txt
 python3 -m pip install -r requirements_no_deps.txt --no-deps
 python3 -m pip install vidgear[core]~=0.2.4 --no-deps
 python3 -m pip install --upgrade --no-deps --force-reinstall urllib3==1.*
