@@ -1,10 +1,5 @@
 # How to Load Custom Blocks into AugeLab Studio in Linux distros
 
-## Prerequisites
-- AugeLab Studio is already installed.
-- You have a custom .py file that you want to load into AugeLab Studio.
-- You will transfer the custom Python file from a Windows machine to an Ubuntu machine, where the Python script will be run.
-
 ## Summary
 Summary of this tutorial is basically:
 
@@ -13,12 +8,18 @@ Summary of this tutorial is basically:
 * Modify `main.py` (using a command to import the custom block)
 * Run your headless scenario.
 
+### Prerequisites
+- AugeLab Studio is already installed.
+- You have a custom .py file that you want to load into AugeLab Studio.
+- You will transfer the custom Python file from a Windows machine to an Ubuntu machine, where the Python script will be run.
+
 ## Step-by-Step Instructions
 ### Step 1: Locate the Custom Python File on Windows
 On your Windows machine, open File Explorer.
 
-- Locate the custom block file from `C:\Users\<USERNAME>\AppData\Roaming\AugeLab Studio\marketplace\custom_blocks` (Replace <USERNAME> with your Windows username)
-- Copy the xxx .py file from this location to a portable storage medium or cloud storage to transfer it to your Ubuntu machine.
+- Locate the custom block file from(Replace <USERNAME> with your Windows username):
+     ```C:\Users\<USERNAME>\AppData\Roaming\AugeLab Studio\marketplace\custom_blocks```
+- Copy the xxx .py file from this location to your Ubuntu machine.
 
 ### Step 2: Transfer the Custom Python File to Ubuntu
 On your Ubuntu machine, create a folder named custom_blocks in your project directory. For example:
@@ -27,11 +28,12 @@ On your Ubuntu machine, create a folder named custom_blocks in your project dire
 ```bash
 mkdir custom_blocks
 ```
-- Transfer the custom .py file from your Windows machine into the custom_blocks folder on your Ubuntu machine. For example, if your file is named `xxx.py`, ensure it is placed inside the custom_blocks folder.
+- Transfer the custom .py file to this location. For `xxx.py` file:
+```bash
+mv xxx.py custom_blocks/
+```
 
 ### Step 3: Use the Provided Python Script snippet
-You will be provided with a Python snippet in step-4 that will load your custom nodes. Place this script into the same directory as the custom_blocks folder.
-
 Your folder structure should look like this:
 
 ````markdown
@@ -41,7 +43,9 @@ Your folder structure should look like this:
     main.py
 ````
 
-### Step 4: Run the Python Script
+You will be provided with a snippet in step-4 that will load your custom blocks.
+
+### Step 4: Modify-Run the Python Script
 Modify the example script provided in [full example](https://github.com/AugelabTech/AugeLab-Studio-Issues/blob/main/StudioAPI.md#full-example) and insert the snippet below.
 
 - Copy this snippet:
