@@ -8,15 +8,12 @@ apt-get update
 apt-get install -y software-properties-common
 add-apt-repository -y ppa:deadsnakes/ppa
 apt-get update
-apt-get install -y python3.9 python3.9-distutils python3.9-venv
-apt-get install -y libpython3.9
-apt-get install -y udev ffmpeg libsm6 libxext6
+apt-get install -y python3.9 python3.9-distutils python3.9-venv libpython3.9 udev ffmpeg libsm6 libxext6 libdmtx0b zbar-tools
 ```
 
 ## Make python3.9 the default Python version
 ```
-update-alternatives --install /usr/bin/python python /usr/bin/python3.9 1 && \
-    update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.9 1
+update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.9 1
 ```
 
 ## Install pip
