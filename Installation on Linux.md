@@ -1,4 +1,4 @@
-# Installation manual of AugeLab Studio Headless on Linux/Docker
+[requirements_linux.txt](https://github.com/user-attachments/files/17471690/requirements_linux.txt)[requirements.txt](https://github.com/user-attachments/files/17471676/requirements.txt)# Installation manual of AugeLab Studio Headless on Linux/Docker
 This documentation will walk you through installation of augelab studio on a Linux distro. You may follow the same steps to dockerize whole process.
 
 
@@ -25,15 +25,15 @@ update-alternatives --install /usr/bin/python python /usr/bin/python3.9 1 && \
 apt-get install -y python3-pip
 ```
 
-[](https://github.com/user-attachments/files/15573418/requirements.txt)
-[](https://github.com/user-attachments/files/15573404/requirements_linux.txt)
-[](https://github.com/user-attachments/files/15573405/requirements_no_deps.txt)
+[](https://github.com/user-attachments/files/17471688/requirements.txt)
+[](https://github.com/user-attachments/files/17471694/requirements_linux.txt)
+[](https://github.com/user-attachments/files/17471695/requirements_no_deps.txt)
 
 ## Install dependencies
 ```
-wget https://github.com/user-attachments/files/15573418/requirements.txt
-wget https://github.com/user-attachments/files/15573404/requirements_linux.txt
-wget https://github.com/user-attachments/files/15573405/requirements_no_deps.txt
+wget https://github.com/user-attachments/files/17471688/requirements.txt
+wget https://github.com/user-attachments/files/17471694/requirements_linux.txt
+wget https://github.com/user-attachments/files/17471695/requirements_no_deps.txt
 python3 -m pip install --upgrade pip
 python3 -m pip install --index-url http://studio-desktop-repo-v3.s3-website.eu-central-1.amazonaws.com --trusted-host studio-desktop-repo-v3.s3-website.eu-central-1.amazonaws.com studio augelab_file_utils augelab_platform boto3 botocore tee
 python3 -m pip install --extra-index-url http://studio-desktop-repo-v3.s3-website.eu-central-1.amazonaws.com --trusted-host studio-desktop-repo-v3.s3-website.eu-central-1.amazonaws.com -r requirements.txt  -r requirements_linux.txt
