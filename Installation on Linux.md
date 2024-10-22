@@ -1,4 +1,4 @@
-[requirements_linux.txt](https://github.com/user-attachments/files/17471690/requirements_linux.txt)[requirements.txt](https://github.com/user-attachments/files/17471676/requirements.txt)# Installation manual of AugeLab Studio Headless on Linux/Docker
+# Installation manual of AugeLab Studio Headless on Linux/Docker
 This documentation will walk you through installation of augelab studio on a Linux distro. You may follow the same steps to dockerize whole process.
 
 
